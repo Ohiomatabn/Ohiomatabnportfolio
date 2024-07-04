@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 64.5px;
+}
+
+body{
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    font-size: 0.7rem;
+    color: #000;
+}
+
+.join-us p{
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    text-align: center;
+}
+
+.container{
+    background-color: #ebe1e1;
+}
+
+p.who{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 0.2rem;
+}
+
+p.bit{
+    font-size: 0.4rem;
+    text-align: center;
+    padding-bottom: 0.1rem;
+}
+
+p.about{
+    font-size: 0.6rem;
+    padding-bottom: 1rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+}
+
+div.profile{
+    background-color: #0000ff;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img.ohi{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    padding: 1rem;
+    object-fit: cover;
+}
+
+.profile p{
+    font-size: 0.7rem;
+    padding-bottom: 0.4rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    text-align: center;
+}
+
+div.work{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+
+.img img{
+    width: 8rem;
+}
+
+.hire{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ebe1e1;
+}
+
+img.social{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+}
+
+.img{
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.icon div{
+    text-align: center;
+}
+
+.hire-me{
+    text-align: center;
+}
+
+div.learn{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.begin p{
+    text-align: center;
+    background-color: #ebe1e1;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    text-align: center;
+}
+
+footer{
+    background-color: #0000ff;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.5rem;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow{
+    border: 2px solid #fff;
+    height: 1rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+}
+
+a{
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#7e7ed8
+}
+
+.icons div{
+    padding-bottom: 0.4rem;
+    text-align: center;
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+}
+
+@media only screen and (max-width:1026px) {
+    div.work{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        row-gap: 0.5rem;
+        column-gap: 0.5rem;
+    }
+    .img img{
+        width: 6rem;
+    }
+
+    img.social{
+        width: 1rem;
+    }
+    
+}
+
+
+@media only screen and (max-width:384px){
+    html{
+        font-size: 14px;
+    }
+
+    img.ohi{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 2.5rem;
+    }
+}
+
+@media only screen and (max-width:970px) {
+    .img img{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 4rem;
+    }
+    
+}
